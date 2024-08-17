@@ -1,0 +1,1 @@
+npm install @rainbow-me/rainbowkit connectkit wagmi viem@2.x @tanstack/react-query
