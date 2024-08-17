@@ -1,7 +1,6 @@
 import { ConnectKitButton } from "connectkit";
 import { useAccount } from "wagmi";
-
-export default function HomePage() {
+const HomePage = () => {
   const { isConnected } = useAccount();
 
   return (
@@ -42,4 +41,6 @@ export default function HomePage() {
       )}
     </div>
   );
-}
+};
+
+export default HomePage;
