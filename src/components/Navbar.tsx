@@ -4,19 +4,23 @@ const Navbar: React.FC = () => {
   return (
     <div className="navbar bg-base-100 bg-opacity-50 backdrop-blur-md">
       <div className="flex-1">
-        <a className="btn btn-ghost normal-case text-xl">GreenChain</a>
+        <a href="/" className="btn btn-ghost normal-case text-xl">
+          GreenChain
+        </a>
       </div>
       <div className="flex-none">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a className="btn btn-ghost">Home</a>
+            <a href="/gardensdk" className="btn btn-ghost">
+              Garden Finance
+            </a>
           </li>
-          <li>
+          {/* <li>
             <a className="btn btn-ghost">About</a>
           </li>
           <li>
             <a className="btn btn-ghost">Contact</a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>
